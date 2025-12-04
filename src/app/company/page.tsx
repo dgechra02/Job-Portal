@@ -59,7 +59,7 @@ export default function page() {
         </div>
       </header>
 
-      <div className="companies w-full flex flex-wrap justify-center p-5 gap-3">
+      <div className="companies w-full flex flex-wrap p-5 gap-3">
         {!isLoading ? (
           companies.length != 0 ? (
             companies.map((com) => {
