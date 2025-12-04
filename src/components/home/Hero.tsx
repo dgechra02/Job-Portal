@@ -19,7 +19,7 @@ export default function Hero() {
       </p>  
       <div className="flex max-sm:flex-col gap-3 sm:gap-5 mt-2 h-fit lg:h-20 items-center">
         <button className="text-black font-semibold text-sm lg:text-xl bg-white py-3 px-5 h-10 lg:h-15 cursor-pointer rounded-lg flex gap-2 items-center hover:-translate-y-1 transition-transform duration-500">
-          <Link href={'/jobs'} > Currently Added Jobs</Link> <MoveRight className="w-4 mt-1" />
+          <Link href={'/job-search'} > Explore Jobs</Link> <MoveRight className="w-4 mt-1" />
         </button>
         <button className="text-gray-400 hover:text-white font-semibold text-sm lg:text-xl hover:bg-[#212121] py-3 px-5 h-10 lg:h-15 cursor-pointer rounded-lg flex gap-2 items-center border border-[#3a3a3a] hover:-translate-y-1 transition-all duration-500">
           <Link href={'/company'} className=""> For Employers</Link> <MoveRight className="w-4 mt-1" />

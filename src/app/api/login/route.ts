@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
         id: user.id,
       };
       const token = createToken(userTokenData);
-      const userCookies = await cookies();
+      const userCookies = await cookies();  
       userCookies.set("userIdToken", token);
 
       return NextResponse.json({

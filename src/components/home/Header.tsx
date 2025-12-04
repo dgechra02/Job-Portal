@@ -27,7 +27,7 @@ export default function Header() {
       </Link>
       <div className="actions xl:flex hidden ">
         <Link
-          href={"/jobs"}
+          href={"/job-search"}
           className=" text-lg px-3 py-1.5 rounded-lg hover:bg-[#212121] font-semibold text-gray-400 hover:text-white w-20 h-11 transition-all duration-300 text-center"
         >
           Jobs

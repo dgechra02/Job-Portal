@@ -1,5 +1,5 @@
-//@ts-nocheck
-// "use client";
+// @ts-nocheck
+"use client";
 import HandleJobApplication from "@/components/job/HandleJobApplication";
 import JobDeleteUpdate from "@/components/job/JobActions";
 import ViewJobApplications from "@/components/job/ViewJobApplications";
